@@ -8,11 +8,6 @@ class Comments extends Component {
     this.renderComment = this.renderComment.bind(this);
   }
 
-
-
-
-
-
   renderComment(comment, i) {
     return (
       <div className='comment' key={i}>
